@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GoZyaan" class="navigator-link">
+              <span class="suite-name border-failed">GoZyaan</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GoZyaan" class="navigator-link ">
+                    <span>C:\eclipse-workspace\GozayaanAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GoZyaan" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GoZyaan" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GoZyaan" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GoZyaan" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GoZyaan" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GoZyaan" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-GoZyaan" class="hide-methods failed suite-GoZyaan"> (hide)</a> <!-- hide-methods failed suite-GoZyaan -->
+                      <a href="#" panel-name="suite-GoZyaan" class="show-methods failed suite-GoZyaan"> (show)</a> <!-- show-methods failed suite-GoZyaan -->
+                    </span>
+                    <div class="method-list-content failed suite-GoZyaan">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoZyaan" title="gozayaan.testcases.profilePicture" class="method navigator-link" hash-for-method="goProfilePicture">goProfilePicture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-GoZyaan -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoZyaan" class="hide-methods passed suite-GoZyaan"> (hide)</a> <!-- hide-methods passed suite-GoZyaan -->
+                      <a href="#" panel-name="suite-GoZyaan" class="show-methods passed suite-GoZyaan"> (show)</a> <!-- show-methods passed suite-GoZyaan -->
+                    </span>
+                    <div class="method-list-content passed suite-GoZyaan">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoZyaan" title="gozayaan.testcases.login" class="method navigator-link" hash-for-method="goLogin">goLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoZyaan" title="gozayaan.testcases.oneWayFlight" class="method navigator-link" hash-for-method="goOneWayFlightlight">goOneWayFlightlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoZyaan" title="gozayaan.testcases.profile" class="method navigator-link" hash-for-method="goPofile">goPofile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoZyaan" title="gozayaan.testcases.roundWayFlight" class="method navigator-link" hash-for-method="goRoundWayFlight">goRoundWayFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoZyaan -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GoZyaan" class="panel GoZyaan">
+          <div class="suite-GoZyaan-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">gozayaan.testcases.profilePicture</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goProfilePicture">
+                  </a> <!-- goProfilePicture -->
+                  <span class="method-name">goProfilePicture</span>
+                  <div class="stack-trace">java.io.IOException: Cannot run program &quot;resources/picupload.exe&quot;: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at gozayaan.testcases.profilePicture.goProfilePicture(profilePicture.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:494)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 33 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoZyaan-class-failed -->
+          <div class="suite-GoZyaan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">gozayaan.testcases.profile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goPofile">
+                  </a> <!-- goPofile -->
+                  <span class="method-name">goPofile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoZyaan-class-passed -->
+          <div class="suite-GoZyaan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">gozayaan.testcases.roundWayFlight</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goRoundWayFlight">
+                  </a> <!-- goRoundWayFlight -->
+                  <span class="method-name">goRoundWayFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoZyaan-class-passed -->
+          <div class="suite-GoZyaan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">gozayaan.testcases.oneWayFlight</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goOneWayFlightlight">
+                  </a> <!-- goOneWayFlightlight -->
+                  <span class="method-name">goOneWayFlightlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoZyaan-class-passed -->
+          <div class="suite-GoZyaan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">gozayaan.testcases.login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goLogin">
+                  </a> <!-- goLogin -->
+                  <span class="method-name">goLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoZyaan-class-passed -->
+        </div> <!-- panel GoZyaan -->
+        <div panel-name="test-xml-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\GozayaanAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GoZyaan&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;gozayaan.listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;goLogin test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;gozayaan.testcases.login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- goLogin test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;goProfile test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;gozayaan.testcases.profile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- goProfile test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;goProfilePicture test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;gozayaan.testcases.profilePicture&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- goProfilePicture test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;goOneWayFlight test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;gozayaan.testcases.oneWayFlight&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- goOneWayFlight test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;goRoundWayFlight test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;gozayaan.testcases.roundWayFlight&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- goRoundWayFlight test --&gt;
+&lt;/suite&gt; &lt;!-- GoZyaan --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoZyaan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">goLogin test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">goProfile test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">goProfilePicture test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">goOneWayFlight test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">goRoundWayFlight test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoZyaan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoZyaan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoZyaan');
+function tableData_GoZyaan() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'goPofile')
+data.setCell(0, 2, 'gozayaan.testcases.profile')
+data.setCell(0, 3, 19052);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'goRoundWayFlight')
+data.setCell(1, 2, 'gozayaan.testcases.roundWayFlight')
+data.setCell(1, 3, 14685);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'goOneWayFlightlight')
+data.setCell(2, 2, 'gozayaan.testcases.oneWayFlight')
+data.setCell(2, 3, 9068);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goLogin')
+data.setCell(3, 2, 'gozayaan.testcases.login')
+data.setCell(3, 3, 8266);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'goProfilePicture')
+data.setCell(4, 2, 'gozayaan.testcases.profilePicture')
+data.setCell(4, 3, 8017);
+window.suiteTableData['GoZyaan']= { tableData: data, tableDiv: 'times-div-GoZyaan'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <div id="times-div-GoZyaan">
+              </div> <!-- times-div-GoZyaan -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoZyaan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoZyaan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.roundWayFlight</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">51586 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">goLogin</span>
+                <span class="method-start">67419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">75713 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.profile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">81234 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">goPofile</span>
+                <span class="method-start">108789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">127844 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.profilePicture</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">135060 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">goProfilePicture</span>
+                <span class="method-start">145456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">153484 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.oneWayFlight</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">156720 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">goOneWayFlightlight</span>
+                <span class="method-start">166300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">175368 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">gozayaan.testcases.roundWayFlight</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">178074 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">goRoundWayFlight</span>
+                <span class="method-start">187253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">201940 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">205412 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

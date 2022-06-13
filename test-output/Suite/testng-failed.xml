@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Setting(failed)">
+    <classes>
+      <class name="FlightSetUp.FlightSettings">
+        <methods>
+          <include name="flight"/>
+        </methods>
+      </class> <!-- FlightSetUp.FlightSettings -->
+      <class name="GoZayaanSetUp.GoZayaanSettings">
+        <methods>
+          <include name="goSignUp"/>
+        </methods>
+      </class> <!-- GoZayaanSetUp.GoZayaanSettings -->
+    </classes>
+  </test> <!-- Setting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

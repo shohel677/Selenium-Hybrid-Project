@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GoZyaan">
+	<listeners>
+		<listener class-name="gozayaan.listeners.Listeners" />
+	</listeners>
+	<test name="goLogin test">
+
+		<classes>
+			<class name="gozayaan.testcases.login" />
+		</classes>
+	</test>
+	<test name="goProfile test">
+
+		<classes>
+			<class name="gozayaan.testcases.profile" />
+		</classes>
+	</test>
+	<test name="goProfilePicture test">
+
+		<classes>
+			<class name="gozayaan.testcases.profilePicture" />
+		</classes>
+	</test>
+	<test name="goOneWayFlight test">
+
+		<classes>
+			<class name="gozayaan.testcases.oneWayFlight" />
+		</classes>
+	</test>
+	<test name="goRoundWayFlight test">
+
+		<classes>
+			<class name="gozayaan.testcases.roundWayFlight" />
+		</classes>
+	</test>
+
+</suite>
