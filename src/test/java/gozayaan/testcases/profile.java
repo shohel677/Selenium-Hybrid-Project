@@ -1,7 +1,6 @@
 package gozayaan.testcases;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,25 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import DataProvider.GoDataProvider;
-import gozayaan.base.base;
+import gozayaan.base.loginBase;
 import gozayaan.object.profileObj;
 
-public class profile extends base {
+public class profile extends loginBase {
 	@Test
 	public void goPofile() throws IOException, InterruptedException {
-		log.info("Test Case for profile");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		profileObj po = new profileObj(driver);
-		po.loginPageLink().click();
-		log.info("Navigate to Login page");
-		GoDataProvider loginData = new GoDataProvider();
-		ArrayList<String> userLogin = loginData.getData("Login");
-		po.userName().sendKeys(userLogin.get(1));
-		log.info("Entered user name");
-		po.passWord().sendKeys(userLogin.get(3));
-		log.info("Entered password");
-		po.loginSubmit().click();
-		log.info("Click submit button & Login successful");
 		po.profileBadge().click();
 		log.info("Click in profile Badge in home page");
 		po.goToProfileLink().click();

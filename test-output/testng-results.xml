@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-13T17:08:34 BDT" name="GoZyaan" finished-at="2022-06-13T17:11:07 BDT" duration-ms="153636">
+  <suite started-at="2022-06-19T00:28:46 BDT" name="Default suite" finished-at="2022-06-19T00:29:11 BDT" duration-ms="24185">
     <groups>
     </groups>
-    <test started-at="2022-06-13T17:08:34 BDT" name="goLogin test" finished-at="2022-06-13T17:09:02 BDT" duration-ms="28548">
-      <class name="gozayaan.testcases.login">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.login@4c51cf28]" started-at="2022-06-13T17:08:34 BDT" name="initialize" finished-at="2022-06-13T17:08:49 BDT" duration-ms="15274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="goLogin()[pri:0, instance:gozayaan.testcases.login@4c51cf28]" started-at="2022-06-13T17:08:49 BDT" name="goLogin" finished-at="2022-06-13T17:08:58 BDT" duration-ms="8266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goLogin -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.login@4c51cf28]" started-at="2022-06-13T17:08:58 BDT" name="browserQuit" finished-at="2022-06-13T17:09:02 BDT" duration-ms="4415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- gozayaan.testcases.login -->
-    </test> <!-- goLogin test -->
-    <test started-at="2022-06-13T17:09:03 BDT" name="goProfile test" finished-at="2022-06-13T17:09:57 BDT" duration-ms="53567">
-      <class name="gozayaan.testcases.profile">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.profile@41d426b5]" started-at="2022-06-13T17:09:03 BDT" name="initialize" finished-at="2022-06-13T17:09:31 BDT" duration-ms="27554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="goPofile()[pri:0, instance:gozayaan.testcases.profile@41d426b5]" started-at="2022-06-13T17:09:31 BDT" name="goPofile" finished-at="2022-06-13T17:09:50 BDT" duration-ms="19052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goPofile -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.profile@41d426b5]" started-at="2022-06-13T17:09:50 BDT" name="browserQuit" finished-at="2022-06-13T17:09:57 BDT" duration-ms="6954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- gozayaan.testcases.profile -->
-    </test> <!-- goProfile test -->
-    <test started-at="2022-06-13T17:09:57 BDT" name="goProfilePicture test" finished-at="2022-06-13T17:10:18 BDT" duration-ms="21423">
+    <test started-at="2022-06-19T00:28:46 BDT" name="Default test" finished-at="2022-06-19T00:29:11 BDT" duration-ms="24185">
       <class name="gozayaan.testcases.profilePicture">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.profilePicture@2e2ff723]" started-at="2022-06-13T17:09:57 BDT" name="initialize" finished-at="2022-06-13T17:10:07 BDT" duration-ms="10395" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:gozayaan.testcases.profilePicture@1a4927d6]" started-at="2022-06-19T00:28:37 BDT" name="initializeDriver" finished-at="2022-06-19T00:28:46 BDT" duration-ms="9505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.profilePicture@1a4927d6]" started-at="2022-06-19T00:28:46 BDT" name="initialize" finished-at="2022-06-19T00:29:00 BDT" duration-ms="14038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="goProfilePicture()[pri:0, instance:gozayaan.testcases.profilePicture@2e2ff723]" started-at="2022-06-13T17:10:07 BDT" name="goProfilePicture" finished-at="2022-06-13T17:10:15 BDT" duration-ms="8017" status="FAIL">
+        <test-method signature="goProfilePicture()[pri:0, instance:gozayaan.testcases.profilePicture@1a4927d6]" started-at="2022-06-19T00:29:01 BDT" name="goProfilePicture" finished-at="2022-06-19T00:29:07 BDT" duration-ms="6687" status="FAIL">
           <exception class="java.io.IOException">
             <message>
               <![CDATA[Cannot run program "resources/picupload.exe": CreateProcess error=2, The system cannot find the file specified]]>
@@ -55,7 +27,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
 at java.base/java.lang.Runtime.exec(Runtime.java:594)
 at java.base/java.lang.Runtime.exec(Runtime.java:418)
 at java.base/java.lang.Runtime.exec(Runtime.java:315)
-at gozayaan.testcases.profilePicture.goProfilePicture(profilePicture.java:33)
+at gozayaan.testcases.profilePicture.goProfilePicture(profilePicture.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,51 +68,15 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goProfilePicture -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.profilePicture@2e2ff723]" started-at="2022-06-13T17:10:15 BDT" name="browserQuit" finished-at="2022-06-13T17:10:18 BDT" duration-ms="2981" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.profilePicture@1a4927d6]" started-at="2022-06-19T00:29:07 BDT" name="browserQuit" finished-at="2022-06-19T00:29:11 BDT" duration-ms="3363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-      </class> <!-- gozayaan.testcases.profilePicture -->
-    </test> <!-- goProfilePicture test -->
-    <test started-at="2022-06-13T17:10:19 BDT" name="goOneWayFlight test" finished-at="2022-06-13T17:10:40 BDT" duration-ms="21181">
-      <class name="gozayaan.testcases.oneWayFlight">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.oneWayFlight@46944ca9]" started-at="2022-06-13T17:10:19 BDT" name="initialize" finished-at="2022-06-13T17:10:28 BDT" duration-ms="9580" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="goOneWayFlightlight()[pri:0, instance:gozayaan.testcases.oneWayFlight@46944ca9]" started-at="2022-06-13T17:10:28 BDT" name="goOneWayFlightlight" finished-at="2022-06-13T17:10:37 BDT" duration-ms="9068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goOneWayFlightlight -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.oneWayFlight@46944ca9]" started-at="2022-06-13T17:10:37 BDT" name="browserQuit" finished-at="2022-06-13T17:10:40 BDT" duration-ms="2532" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- gozayaan.testcases.oneWayFlight -->
-    </test> <!-- goOneWayFlight test -->
-    <test started-at="2022-06-13T17:10:40 BDT" name="goRoundWayFlight test" finished-at="2022-06-13T17:11:07 BDT" duration-ms="27143">
-      <class name="gozayaan.testcases.roundWayFlight">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:gozayaan.testcases.roundWayFlight@2a448449]" started-at="2022-06-13T17:07:42 BDT" name="initializeDriver" finished-at="2022-06-13T17:08:34 BDT" duration-ms="51578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:gozayaan.testcases.roundWayFlight@2a448449]" started-at="2022-06-13T17:10:40 BDT" name="initialize" finished-at="2022-06-13T17:10:49 BDT" duration-ms="9178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="goRoundWayFlight()[pri:0, instance:gozayaan.testcases.roundWayFlight@2a448449]" started-at="2022-06-13T17:10:49 BDT" name="goRoundWayFlight" finished-at="2022-06-13T17:11:04 BDT" duration-ms="14685" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goRoundWayFlight -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:gozayaan.testcases.roundWayFlight@2a448449]" started-at="2022-06-13T17:11:04 BDT" name="browserQuit" finished-at="2022-06-13T17:11:07 BDT" duration-ms="3276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:gozayaan.testcases.roundWayFlight@2a448449]" started-at="2022-06-13T17:11:07 BDT" name="afterSuite" finished-at="2022-06-13T17:11:07 BDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:gozayaan.testcases.profilePicture@1a4927d6]" started-at="2022-06-19T00:29:11 BDT" name="afterSuite" finished-at="2022-06-19T00:29:11 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- gozayaan.testcases.roundWayFlight -->
-    </test> <!-- goRoundWayFlight test -->
-  </suite> <!-- GoZyaan -->
+      </class> <!-- gozayaan.testcases.profilePicture -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

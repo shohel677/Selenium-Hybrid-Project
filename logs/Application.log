@@ -1,44 +1,15 @@
-164/06/2022 17:07:48 devpinoyLogger Browser launched
-164/06/2022 17:08:32 devpinoyLogger Navigate to home page
-164/06/2022 17:08:34 devpinoyLogger Pop up closed
-164/06/2022 17:08:37 devpinoyLogger Browser launched
-164/06/2022 17:08:47 devpinoyLogger Navigate to home page
-164/06/2022 17:08:49 devpinoyLogger Pop up closed
-164/06/2022 17:08:49 devpinoyLogger Browser initialize
-164/06/2022 17:08:49 devpinoyLogger Test Case for login
-164/06/2022 17:08:50 devpinoyLogger Navigate to Login page
-164/06/2022 17:08:57 devpinoyLogger Entered user name
-164/06/2022 17:08:57 devpinoyLogger Entered password
-164/06/2022 17:08:58 devpinoyLogger Click submit button & LOgin successful
-164/06/2022 17:09:06 devpinoyLogger Browser launched
-164/06/2022 17:09:29 devpinoyLogger Navigate to home page
-164/06/2022 17:09:31 devpinoyLogger Pop up closed
-164/06/2022 17:09:31 devpinoyLogger Browser initialize
-164/06/2022 17:09:31 devpinoyLogger Test Case for profile
-164/06/2022 17:09:32 devpinoyLogger Navigate to Login page
-164/06/2022 17:09:34 devpinoyLogger Entered user name
-164/06/2022 17:09:34 devpinoyLogger Entered password
-164/06/2022 17:09:35 devpinoyLogger Click submit button & Login successful
-164/06/2022 17:09:37 devpinoyLogger Click in profile Badge in home page
-164/06/2022 17:09:38 devpinoyLogger Click on profile link and Navigate to Profile page
-164/06/2022 17:10:00 devpinoyLogger Browser launched
-164/06/2022 17:10:06 devpinoyLogger Navigate to home page
-164/06/2022 17:10:07 devpinoyLogger Pop up closed
-164/06/2022 17:10:07 devpinoyLogger Browser initialize
-164/06/2022 17:10:07 devpinoyLogger Test Case for profile picture
-164/06/2022 17:10:09 devpinoyLogger Navigate to Login page
-164/06/2022 17:10:10 devpinoyLogger Entered user name
-164/06/2022 17:10:10 devpinoyLogger Entered password
-164/06/2022 17:10:10 devpinoyLogger Click submit button & Login successful
-164/06/2022 17:10:11 devpinoyLogger Click in profile Badge in home page
-164/06/2022 17:10:12 devpinoyLogger Click on profile link and Navigate to Profile page
-164/06/2022 17:10:21 devpinoyLogger Browser launched
-164/06/2022 17:10:27 devpinoyLogger Navigate to home page
-164/06/2022 17:10:28 devpinoyLogger Pop up closed
-164/06/2022 17:10:28 devpinoyLogger Browser initialize
-164/06/2022 17:10:28 devpinoyLogger Test Case for One Way Flight
-164/06/2022 17:10:42 devpinoyLogger Browser launched
-164/06/2022 17:10:48 devpinoyLogger Navigate to home page
-164/06/2022 17:10:49 devpinoyLogger Pop up closed
-164/06/2022 17:10:49 devpinoyLogger Browser initialize
-164/06/2022 17:10:49 devpinoyLogger Test Case for Round way flight
+170/06/2022 00:28:41 devpinoyLogger Browser launched
+170/06/2022 00:28:44 devpinoyLogger Navigate to home page
+170/06/2022 00:28:46 devpinoyLogger Pop up closed
+170/06/2022 00:28:48 devpinoyLogger Browser launched
+170/06/2022 00:28:52 devpinoyLogger Navigate to home page
+170/06/2022 00:28:54 devpinoyLogger Pop up closed
+170/06/2022 00:28:54 devpinoyLogger Browser initialize
+170/06/2022 00:28:54 devpinoyLogger Test Case for login
+170/06/2022 00:28:55 devpinoyLogger Navigate to Login page
+170/06/2022 00:28:59 devpinoyLogger Entered user name
+170/06/2022 00:29:00 devpinoyLogger Entered password
+170/06/2022 00:29:00 devpinoyLogger Click submit button & LOgin successful
+170/06/2022 00:29:01 devpinoyLogger Test Case for profile picture
+170/06/2022 00:29:02 devpinoyLogger Click in profile Badge in home page
+170/06/2022 00:29:04 devpinoyLogger Click on profile link and Navigate to Profile page

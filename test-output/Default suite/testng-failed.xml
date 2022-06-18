@@ -6,10 +6,10 @@
       <class name="gozayaan.testcases.profilePicture">
         <methods>
           <include name="initializeDriver"/>
-          <include name="afterSuite"/>
           <include name="browserQuit"/>
-          <include name="initialize"/>
           <include name="goProfilePicture"/>
+          <include name="afterSuite"/>
+          <include name="initialize"/>
         </methods>
       </class> <!-- gozayaan.testcases.profilePicture -->
     </classes>
