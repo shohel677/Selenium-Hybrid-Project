@@ -22,7 +22,9 @@ public class oneWayFlight extends base {
 		new WebDriverWait(driver, Duration.ofSeconds(3)).until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"searchbar\"]/div[3]/div[2]/div[1]")));
 		owf.clickSearchBar().click();
+		log.info("Click Search Bar");
 				owf.departPortKeyInput().sendKeys("chit");
+				log.info("Send chit key for chittagong");
 		new WebDriverWait(driver, Duration.ofSeconds(3))
 				.until(ExpectedConditions.elementToBeClickable(By.className("airport-name")));
 		 List<WebElement> departureSelect = owf.departAirport();
@@ -35,10 +37,13 @@ public class oneWayFlight extends base {
 				break;
 			}
 		}
+		log.info("Select chittagong airport");
 		new WebDriverWait(driver, Duration.ofSeconds(3)).until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"searchbar\"]/div[3]/div[2]/div[2]")));
 		owf.arrivePortSearcClick().click();
+		log.info("click depart searchbar");
 		owf.arrivePortKeyInput().sendKeys("jess");
+		log.info("Send keys for arrive port ");
 		new WebDriverWait(driver, Duration.ofSeconds(3))
 				.until(ExpectedConditions.elementToBeClickable(By.className("airport-name")));
 		List<WebElement> arrivalSelect = owf.arrivePortSelectList();
@@ -51,6 +56,7 @@ public class oneWayFlight extends base {
 				break;
 			}
 		}
+		log.info("Select arrive airport");
 		while (!owf.departMonthListSelect().getText().contains("July, 2022")) {
 			owf.departMonthzClick().click();
 		}
@@ -65,22 +71,28 @@ public class oneWayFlight extends base {
 				break;
 			}
 		}
-
+		log.info("Select date of journey");
 		owf.travellerClick().click();
 
 		for (int i = 1; i < 5; i++) {
 			owf.adultSelect().click();
 
 		}
+		log.info("Select number of adult");
 		for (int i = 0; i < 1; i++) {
 			owf.childSelect().click();
 
 		}
+		log.info("Select number of child");
 
 		Select s = new Select(owf.childernAgeSelect());
 		s.selectByVisibleText("7");
+		log.info("Select age of child");
 		owf.flightClass().click();
+		log.info("Select flight class");
 		owf.guestPickerDone().click();
+		log.info("click done");
 		owf.flightButtonClick().click();
+		log.info("Click flight search and test case pass");
 	}
 }

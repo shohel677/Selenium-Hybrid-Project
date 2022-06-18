@@ -75,21 +75,28 @@ public class roundWayFlight extends base {
 			}
 
 		}
+		log.info("Select date of journey");
 		rwf.travellerClick().click();
 
 		for (int i = 1; i < 5; i++) {
 			rwf.adultSelect().click();
 
 		}
+		log.info("Select number of adult");
 		for (int i = 0; i < 1; i++) {
 			rwf.childSelect().click();
 
 		}
+		log.info("Select number of child");
 
 		Select s = new Select(rwf.childernAgeSelect());
 		s.selectByVisibleText("7");
+		log.info("Select age of child");
 		rwf.flightClass().click();
+		log.info("Select flight class");
 		rwf.guestPickerDone().click();
+		log.info("click done");
 		rwf.flightButtonClick().click();
+		log.info("Click flight search and test case pass");
 	}
 }

@@ -19,7 +19,8 @@ public class profilePicture extends loginBase {
 		pp.profilePictureUpButton().click();
 		Thread.sleep(3000);
 		Runtime.getRuntime().exec("resources/picupload.exe");
+		log.info("Upload profile picture");
 		Thread.sleep(3000);
-
+		log.info("Test Case pass");
 	}
 }

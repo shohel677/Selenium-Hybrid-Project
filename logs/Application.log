@@ -1,15 +1,87 @@
-170/06/2022 00:28:41 devpinoyLogger Browser launched
-170/06/2022 00:28:44 devpinoyLogger Navigate to home page
-170/06/2022 00:28:46 devpinoyLogger Pop up closed
-170/06/2022 00:28:48 devpinoyLogger Browser launched
-170/06/2022 00:28:52 devpinoyLogger Navigate to home page
-170/06/2022 00:28:54 devpinoyLogger Pop up closed
-170/06/2022 00:28:54 devpinoyLogger Browser initialize
-170/06/2022 00:28:54 devpinoyLogger Test Case for login
-170/06/2022 00:28:55 devpinoyLogger Navigate to Login page
-170/06/2022 00:28:59 devpinoyLogger Entered user name
-170/06/2022 00:29:00 devpinoyLogger Entered password
-170/06/2022 00:29:00 devpinoyLogger Click submit button & LOgin successful
-170/06/2022 00:29:01 devpinoyLogger Test Case for profile picture
-170/06/2022 00:29:02 devpinoyLogger Click in profile Badge in home page
-170/06/2022 00:29:04 devpinoyLogger Click on profile link and Navigate to Profile page
+170/06/2022 00:57:51 devpinoyLogger Browser launched
+170/06/2022 00:57:57 devpinoyLogger Navigate to home page
+170/06/2022 00:57:59 devpinoyLogger Pop up closed
+170/06/2022 00:58:01 devpinoyLogger Browser launched
+170/06/2022 00:58:07 devpinoyLogger Navigate to home page
+170/06/2022 00:58:09 devpinoyLogger Pop up closed
+170/06/2022 00:58:12 devpinoyLogger Browser launched
+170/06/2022 00:58:27 devpinoyLogger Navigate to home page
+170/06/2022 00:58:28 devpinoyLogger Pop up closed
+170/06/2022 00:58:28 devpinoyLogger Browser initialize
+170/06/2022 00:58:29 devpinoyLogger Test Case for login
+170/06/2022 00:58:30 devpinoyLogger Navigate to Login page
+170/06/2022 00:58:34 devpinoyLogger Entered user name
+170/06/2022 00:58:35 devpinoyLogger Entered password
+170/06/2022 00:58:35 devpinoyLogger Click submit button & LOgin successful
+170/06/2022 00:58:41 devpinoyLogger Browser launched
+170/06/2022 00:58:51 devpinoyLogger Navigate to home page
+170/06/2022 00:58:52 devpinoyLogger Pop up closed
+170/06/2022 00:58:52 devpinoyLogger Browser initialize
+170/06/2022 00:58:52 devpinoyLogger Test Case for login
+170/06/2022 00:58:52 devpinoyLogger Navigate to Login page
+170/06/2022 00:58:54 devpinoyLogger Entered user name
+170/06/2022 00:58:55 devpinoyLogger Entered password
+170/06/2022 00:58:55 devpinoyLogger Click submit button & LOgin successful
+170/06/2022 00:58:59 devpinoyLogger Click in profile Badge in home page
+170/06/2022 00:58:59 devpinoyLogger Click on profile link and Navigate to Profile page
+170/06/2022 00:59:02 devpinoyLogger Click edit button
+170/06/2022 00:59:04 devpinoyLogger Input first name
+170/06/2022 00:59:05 devpinoyLogger Input last Name
+170/06/2022 00:59:07 devpinoyLogger Input date of birt
+170/06/2022 00:59:08 devpinoyLogger Input NID number
+170/06/2022 00:59:08 devpinoyLogger click gender
+170/06/2022 00:59:08 devpinoyLogger Select gender
+170/06/2022 00:59:08 devpinoyLogger Click marital status
+170/06/2022 00:59:09 devpinoyLogger Select maital status
+170/06/2022 00:59:09 devpinoyLogger Input house number
+170/06/2022 00:59:09 devpinoyLogger Input street address
+170/06/2022 00:59:09 devpinoyLogger Input post code
+170/06/2022 00:59:09 devpinoyLogger Input city
+170/06/2022 00:59:10 devpinoyLogger Input phone number
+170/06/2022 00:59:10 devpinoyLogger Click religion
+170/06/2022 00:59:10 devpinoyLogger Select religion
+170/06/2022 00:59:11 devpinoyLogger Click Language
+170/06/2022 00:59:11 devpinoyLogger Select language
+170/06/2022 00:59:11 devpinoyLogger click cancel button and test case pass
+170/06/2022 00:59:16 devpinoyLogger Browser launched
+170/06/2022 00:59:23 devpinoyLogger Navigate to home page
+170/06/2022 00:59:25 devpinoyLogger Pop up closed
+170/06/2022 00:59:25 devpinoyLogger Browser initialize
+170/06/2022 00:59:25 devpinoyLogger Test Case for login
+170/06/2022 00:59:25 devpinoyLogger Navigate to Login page
+170/06/2022 00:59:27 devpinoyLogger Entered user name
+170/06/2022 00:59:27 devpinoyLogger Entered password
+170/06/2022 00:59:28 devpinoyLogger Click submit button & LOgin successful
+170/06/2022 00:59:28 devpinoyLogger Test Case for profile picture
+170/06/2022 00:59:29 devpinoyLogger Click in profile Badge in home page
+170/06/2022 00:59:30 devpinoyLogger Click on profile link and Navigate to Profile page
+170/06/2022 00:59:38 devpinoyLogger Browser launched
+170/06/2022 00:59:43 devpinoyLogger Navigate to home page
+170/06/2022 00:59:44 devpinoyLogger Pop up closed
+170/06/2022 00:59:44 devpinoyLogger Browser initialize
+170/06/2022 00:59:44 devpinoyLogger Test Case for One Way Flight
+170/06/2022 00:59:45 devpinoyLogger Click Search Bar
+170/06/2022 00:59:45 devpinoyLogger Send chit key for chittagong
+170/06/2022 00:59:47 devpinoyLogger Select chittagong airport
+170/06/2022 00:59:47 devpinoyLogger click depart searchbar
+170/06/2022 00:59:47 devpinoyLogger Send keys for arrive port 
+170/06/2022 00:59:48 devpinoyLogger Select arrive airport
+170/06/2022 00:59:52 devpinoyLogger Select date of journey
+170/06/2022 00:59:53 devpinoyLogger Select number of adult
+170/06/2022 00:59:53 devpinoyLogger Select number of child
+170/06/2022 00:59:54 devpinoyLogger Select age of child
+170/06/2022 00:59:54 devpinoyLogger Select flight class
+170/06/2022 00:59:54 devpinoyLogger click done
+170/06/2022 00:59:54 devpinoyLogger Click flight search and test case pass
+170/06/2022 00:59:59 devpinoyLogger Browser launched
+170/06/2022 01:00:06 devpinoyLogger Navigate to home page
+170/06/2022 01:00:08 devpinoyLogger Pop up closed
+170/06/2022 01:00:08 devpinoyLogger Browser initialize
+170/06/2022 01:00:08 devpinoyLogger Test Case for Round way flight
+170/06/2022 01:00:21 devpinoyLogger Select date of journey
+170/06/2022 01:00:22 devpinoyLogger Select number of adult
+170/06/2022 01:00:22 devpinoyLogger Select number of child
+170/06/2022 01:00:22 devpinoyLogger Select age of child
+170/06/2022 01:00:23 devpinoyLogger Select flight class
+170/06/2022 01:00:23 devpinoyLogger click done
+170/06/2022 01:00:23 devpinoyLogger Click flight search and test case pass

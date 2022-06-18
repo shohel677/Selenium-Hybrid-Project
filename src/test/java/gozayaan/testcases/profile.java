@@ -20,16 +20,19 @@ public class profile extends loginBase {
 		po.goToProfileLink().click();
 		log.info("Click on profile link and Navigate to Profile page");
 		po.editProfileButton().click();
+		log.info("Click edit button");
 		GoDataProvider profileData = new GoDataProvider();
 		ArrayList<String> userCredentials = profileData.getData("Profile details");
 		String firstName = po.inputFirstName().getAttribute("value");
 		if (firstName == "") {
 			po.inputFirstName().sendKeys(userCredentials.get(1));
 		}
+		log.info("Input first name");
 		String lastName = po.inputLastName().getAttribute("value");
 		if (lastName == "") {
 			po.inputLastName().sendKeys(userCredentials.get(2));
 		}
+		log.info("Input last Name");
 		po.calenderClick().click();
 		String birthYear = po.birthYearGetText().getText();
 		if ((birthYear != userCredentials.get(7))) {
@@ -68,9 +71,11 @@ public class profile extends loginBase {
 				break;
 			}
 		}
+		log.info("Input date of birt");
 		po.nationalID().sendKeys(userCredentials.get(8));
+		log.info("Input NID number");
 		po.genderClick().click();
-
+		log.info("click gender");
 		List<WebElement> genderSelect = po.genderSelectClick();
 		int genderCount = genderSelect.size();
 		for (int i = 0; i < genderCount; i++) {
@@ -80,7 +85,9 @@ public class profile extends loginBase {
 				break;
 			}
 		}
+		log.info("Select gender");
 		po.maritalClick().click();
+		log.info("Click marital status");
 		List<WebElement> maritalSelect = po.maritalSelectClick();
 		int maritalCount = maritalSelect.size();
 		for (int i = 0; i < maritalCount; i++) {
@@ -90,12 +97,19 @@ public class profile extends loginBase {
 				break;
 			}
 		}
+		log.info("Select maital status");
 		po.houseNo().sendKeys("House # 26");
+		log.info("Input house number");
 		po.streetName().sendKeys("Lane # 3, Block # A, Section # 6");
+		log.info("Input street address");
 		po.postCode().sendKeys("1216");
+		log.info("Input post code");
 		po.cityName().sendKeys("Dhaka");
+		log.info("Input city");
 		po.phoneNumber().sendKeys("01624109802");
+		log.info("Input phone number");
 		po.religionField().click();
+		log.info("Click religion");
 		List<WebElement> relegionSelect = po.religionFieldList();
 		int relegionCount = relegionSelect.size();
 		for (int i = 0; i < relegionCount; i++) {
@@ -105,7 +119,9 @@ public class profile extends loginBase {
 				break;
 			}
 		}
+		log.info("Select religion");
 		po.languageField().click();
+		log.info("Click Language");
 		List<WebElement> languageSelect = po.languageFieldList();
 		int languageCount = relegionSelect.size();
 		for (int i = 0; i < languageCount; i++) {
@@ -115,6 +131,9 @@ public class profile extends loginBase {
 				break;
 			}
 		}
+		log.info("Select language");
 		po.cancelButton().click();
+		log.info("click cancel button and test case pass");
 	}
+	
 }
